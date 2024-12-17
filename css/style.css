@@ -1,0 +1,31 @@
+.flex-box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.flex-box-item > img {
+  width: 200px;
+  margin: 40px;
+}
+#dog-image {
+  height: 150px;
+  border-radius: 50%;
+}
+#title {
+  background: rgb(141,100,23);
+  background: linear-gradient(90deg, rgba(141,100,23,0.5495448179271709) 0%,
+   rgba(159,109,27,1) 60%, rgba(254,154,45,1) 100%);  
+}
+#footer {
+  background: rgb(141,100,23);
+  background: linear-gradient(90deg, rgba(141,100,23,0.5495448179271709) 0%,
+   rgba(159,109,27,1) 60%, rgba(254,154,45,1) 100%);
+}
+.me-3 {
+  margin: 0.5rem;
+}
+@media (min-width: 800px) {
+    .flex-box-container {
+      flex-direction: row;
+    }
+  }
